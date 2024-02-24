@@ -1,0 +1,83 @@
+.container {
+    font-family: "Roboto", sans-serif;  
+}
+
+#heading{
+    margin: 0px;
+    background-color: black;
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+    height: 35px;
+    margin-bottom: 20px;
+  }
+
+  .searchDiv{
+    margin: 3px 65px 3px 65px;
+    display: flex;
+  }
+  #searchInput{
+    width: 90%;
+    font-size: 20px;
+    padding: 5px;
+    height: 45px;
+    border: 2px solid black;
+  }
+  #searchButton{
+    margin-top: 0px;
+    font-size: 20px;
+    padding: 5px;
+    height: 55px;
+    width:15%;
+    background-color: black;
+    color: white;
+  }
+
+  .buttons {
+    display: flex;
+    margin-inline:60px ;
+    justify-content: space-between;
+  }
+  button{
+    background-color: black;
+    color: white;
+    width: 15%;
+    margin: 7px;
+    font-size: 18px;
+    padding: 5px;
+    height: 55px;
+  }
+  
+  .student-tables {
+    margin-top: 20px;
+    height: 100%;
+}
+  table {
+    width: 90%;
+    margin: 50px;
+    border: 5px solid black;
+    }
+  tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  .img-container {
+    display: flex;
+    align-items: center;
+  }
+  .img-container img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
